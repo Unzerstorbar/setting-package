@@ -1,0 +1,19 @@
+{
+    "name": "weldbook/setting",
+    "description": "Setting for organizations and users",
+    "type": "metapackage",
+    "authors": [
+        {
+            "name": "Alexey Shamanin",
+            "email": "alexowen5@icloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "vlucas/phpdotenv": "3.5.x-dev"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
